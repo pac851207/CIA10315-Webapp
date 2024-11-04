@@ -25,7 +25,7 @@ public class PetSitterServiceItemJDBCDAO implements PetSitterServiceItemDAO_inte
 	public void insert(PetSitterServiceItemVO petSitterServiceItemVO) {
 
 		Connection con = null;
-		PreparedStatement pstmt = null;
+		PreparedStatement pstmt = null; 
 
 		try {
 
